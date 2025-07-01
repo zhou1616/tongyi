@@ -90,6 +90,61 @@
                   </div>
                 </div>
               </div>
+                <div class="right">
+                  <div class="autoCard">
+                    <div class="card-1">
+                      <div class="card-2 activeCard">
+                        <div class="experIdep">
+                          <div></div>
+                          <div></div>
+                          <div></div>
+                          <div></div>
+                          <div class="Star-right"></div>
+                          <div class="Star-left"></div>
+                          <div class="PPT-button">
+                            <span role="img" class="img-1">
+                              <svg width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class="">
+                                <use xlink:href="#extend-independentResearch-line"></use>
+                              </svg>
+                            </span>开始分析研究</div>
+                        </div>
+                      </div>
+                      <div class="card-2 activeCard">
+                        <div class="openQwen">
+                          <div class="AppButton">
+                            <span role="img" class="img-1">
+                              <svg width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class="">
+                                <use xlink:href="#extend-tongyiShape-line"></use>
+                              </svg>
+                            </span>
+                            <div>体验Qwen 3</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="card-2 activeCard ">
+                        <div class="PPT-1">
+                          <div></div>
+                          <div></div>
+                          <div></div>
+                          <div></div>
+                          <div class="Star-right-1"></div>
+                          <div class="Star-left-1"></div>
+                          <div class="PPT-button">
+                            <span role="img" class="img-1">
+                              <svg width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" class="">
+                                <use xlink:href="#extend-pptChart-line"></use>
+                              </svg>
+                            </span>智能生成PPT</div>
+                        </div>
+                      </div>
+                      <div class="dot-1">
+                        <span class="dot-2 dotActive"></span>
+                        <span class="dot-2 dotActive"></span>
+                        <span class="dot-2 dotActive"></span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
@@ -411,5 +466,164 @@
   height: 0;
   max-width: 896px;
   min-width: 320px;
+}
+.right{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 216px;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  box-sizing: border-box;
+  height: 192px;
+  opacity: 1;
+  overflow: hidden;
+  padding: 0 !important;
+}
+.autoCard{
+  height: 100%;
+  width: 100%;
+}
+.card-1{
+  height: 100%;
+  position: relative;
+  width: 216px;
+}
+.card-2{
+  box-sizing: border-box;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: opacity .4s ease, visibility .4s ease;
+  visibility: hidden;
+  width: 100%;
+}
+.activeCard{
+  opacity: 1;
+  visibility: visible;
+}
+.experIdep{
+  background-image: url(https://img.alicdn.com/imgextra/i4/O1CN01dU5Uzc1DViyX97tQJ_!!6000000000222-0-tps-864-768.jpg);
+  background-size: cover;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  box-sizing: border-box;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.PPT-button{
+  pointer-events: all;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background: radial-gradient(58% 126% at 50% 90%, #fff 0, hsla(0, 0%, 100%, 0) 100%), rgba(239, 239, 252, .6);
+  box-shadow: 0 4px 24px 0 rgba(122, 118, 246, .2), inset 0 2px 16px 0 hsla(0, 0%, 100%, .5);
+}
+.img-1{
+  font-size: 20px;
+display: inline-flex;
+  align-items: center;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+.openQwen{
+  background-image: url(https://img.alicdn.com/imgextra/i1/O1CN01wIGuko1UxWTwwzFu9_!!6000000002584-0-tps-432-384.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 16px;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 216px;
+}
+.AppButton{
+  align-items: center;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background: radial-gradient(58% 126% at 50% 90%, #fff 0, hsla(0, 0%, 100%, 0) 100%), rgba(252, 239, 240, .6);
+  border: 1px solid #fff;
+  border-radius: 99px;
+  bottom: 16px;
+  box-shadow: 0 4px 24px 0 rgba(246, 118, 203, .2), inset 0 2px 16px 0 hsla(0, 0%, 100%, .5);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 8px;
+  height: 36px;
+  justify-content: center;
+  left: 50%;
+  line-height: 24px;
+  opacity: 1;
+  position: absolute;
+  transform: translateX(-50%);
+  transition: .2s ease;
+  width: 184px;
+  z-index: 20;
+}
+.PPT-1{
+  background-image: url(https://img.alicdn.com/imgextra/i1/O1CN01Y3alNK1y8AXuAnJPN_!!6000000006533-0-tps-432-384.jpg);
+  background-size: cover;
+  border: 1px solid #fff;
+  border-radius: 16px;
+  box-sizing: border-box;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.Star-right-1{
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  position: absolute;
+  transition: .4s ease;
+  background-image: url(https://img.alicdn.com/imgextra/i3/O1CN01EMVh1s1T71Opw5TR6_!!6000000002334-2-tps-156-156.png);
+  height: 39px;
+  right: 40px;
+  top: -16px;
+  transform: rotate(-8deg);
+  width: 39px;
+}
+.Star-left-1{
+  background-image: url(https://img.alicdn.com/imgextra/i1/O1CN01moQdGc1PypT19yOfg_!!6000000001910-2-tps-32-32.png);
+  height: 8px;
+  left: 64px;
+  top: -8px;
+  transform: rotate(0deg);
+  width: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  position: absolute;
+  transition: .4s ease;
+}
+.dot-1{
+  bottom: 1px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 99;
+}
+.dot-2{
+  background: hsla(0, 0%, 100%, .4);
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 6px;
+  margin: 0 4px;
+  transition: background-color .3s ease;
+  width: 6px;
+}
+.dotActive{
+  background-color: #fff;
 }
 </style>
