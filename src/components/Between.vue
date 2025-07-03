@@ -488,6 +488,9 @@
   height: 100%;
   position: relative;
   width: 216px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 .card-2{
   box-sizing: border-box;
@@ -499,6 +502,8 @@
   transition: opacity .4s ease, visibility .4s ease;
   visibility: hidden;
   width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
 }
 .activeCard{
   opacity: 1;
@@ -520,10 +525,29 @@
   backdrop-filter: blur(10px);
   background: radial-gradient(58% 126% at 50% 90%, #fff 0, hsla(0, 0%, 100%, 0) 100%), rgba(239, 239, 252, .6);
   box-shadow: 0 4px 24px 0 rgba(122, 118, 246, .2), inset 0 2px 16px 0 hsla(0, 0%, 100%, .5);
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 184px;
+  height: 36px;
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #5a56e0;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.PPT-button:hover {
+  transform: translateX(-50%) scale(1.05);
 }
 .img-1{
   font-size: 20px;
-display: inline-flex;
+  display: inline-flex;
   align-items: center;
   color: inherit;
   font-style: normal;
@@ -570,6 +594,9 @@ display: inline-flex;
   width: 184px;
   z-index: 20;
 }
+.AppButton:hover {
+  transform: translateX(-50%) scale(1.05);
+}
 .PPT-1{
   background-image: url(public/3.jpg);
   background-size: cover;
@@ -612,6 +639,8 @@ display: inline-flex;
   position: absolute;
   transform: translateX(-50%);
   z-index: 99;
+  display: flex;
+  gap: 8px;
 }
 .dot-2{
   background: hsla(0, 0%, 100%, .4);
@@ -626,4 +655,5 @@ display: inline-flex;
 .dotActive{
   background-color: #fff;
 }
+
 </style>
