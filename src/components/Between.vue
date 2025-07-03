@@ -505,7 +505,7 @@
   visibility: visible;
 }
 .experIdep{
-  background-image: url(https://img.alicdn.com/imgextra/i4/O1CN01dU5Uzc1DViyX97tQJ_!!6000000000222-0-tps-864-768.jpg);
+  background-image: url(public/1.jpg);
   background-size: cover;
   border: 1px solid #fff;
   border-radius: 16px;
@@ -535,7 +535,7 @@ display: inline-flex;
   -webkit-font-smoothing: antialiased;
 }
 .openQwen{
-  background-image: url(https://img.alicdn.com/imgextra/i1/O1CN01wIGuko1UxWTwwzFu9_!!6000000002584-0-tps-432-384.jpg);
+  background-image: url(public/2.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 16px;
@@ -571,7 +571,7 @@ display: inline-flex;
   z-index: 20;
 }
 .PPT-1{
-  background-image: url(https://img.alicdn.com/imgextra/i1/O1CN01Y3alNK1y8AXuAnJPN_!!6000000006533-0-tps-432-384.jpg);
+  background-image: url(public/3.jpg);
   background-size: cover;
   border: 1px solid #fff;
   border-radius: 16px;
@@ -586,7 +586,7 @@ display: inline-flex;
   opacity: 0;
   position: absolute;
   transition: .4s ease;
-  background-image: url(https://img.alicdn.com/imgextra/i3/O1CN01EMVh1s1T71Opw5TR6_!!6000000002334-2-tps-156-156.png);
+  background-image: url(public/4.png);
   height: 39px;
   right: 40px;
   top: -16px;
@@ -594,7 +594,7 @@ display: inline-flex;
   width: 39px;
 }
 .Star-left-1{
-  background-image: url(https://img.alicdn.com/imgextra/i1/O1CN01moQdGc1PypT19yOfg_!!6000000001910-2-tps-32-32.png);
+  background-image: url(public/5.png);
   height: 8px;
   left: 64px;
   top: -8px;
